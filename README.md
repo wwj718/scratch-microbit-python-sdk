@@ -9,7 +9,7 @@ Reference article : [分析scratch3.0与micro:bit的通信](https://blog.just4fu
 
 
 # Install
-`pip3 install microbit`
+`pip3 install microbitble`
 
 # Usage
 ```
