@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='microbit',
+    name='microbitble',
     version='0.1',
     description='Python SDK for scratch-microbit HEX',
     long_description='A Python SDK, which provides an API for connecting and controlling micro:bit(with scratch-microbit HEX). Requires BLED112 Bluetooth LE module.',
@@ -28,11 +28,11 @@ setup(
     ],
     keywords='SDK microbit education',
     packages=[
-        "microbit",
-        "microbit.bluetooth",
-        "microbit.input_output",
-        "microbit.services",
-        "microbit.utils"
+        "microbitble",
+        "microbitble.bluetooth",
+        "microbitble.input_output",
+        "microbitble.services",
+        "microbitble.utils"
     ],
     install_requires=['pygatt==3.1.1']
 )
